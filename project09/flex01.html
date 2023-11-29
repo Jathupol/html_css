@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex Layout</title>
+    <style>
+        header{
+            background-color: salmon;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            color: azure;
+        }
+        nav{
+            
+        }
+        main{
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+        }
+        .card{
+            background-color: aliceblue;
+            float: left;
+            text-align: center;
+            border: solid ;
+            margin: 8px;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Logo        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <img src="https://picsum.photos/250?=1" alt="">
+            <h3>Nice Pic</h3>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/250?=2" alt="">
+            <h3>Nice Pic</h3>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/250?=3" alt="">
+            <h3>Nice Pic</h3>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/250?=4" alt="">
+            <h3>Nice Pic</h3>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/250?=5" alt="">
+            <h3>Nice Pic</h3>
+        </div>
+    </main>
+</body>
+</html>
